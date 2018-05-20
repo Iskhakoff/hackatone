@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.machine_time.hackaton.RegistrationPage"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/loginReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Логин"/>
+
+    <EditText
+        android:id="@+id/fioReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ФИО"/>
+
+    <EditText
+        android:id="@+id/phoneReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер телефна"/>
+
+    <EditText
+        android:id="@+id/campusReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер общежития"/>
+
+    <EditText
+        android:id="@+id/roomReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер комнаты"/>
+
+    <EditText
+        android:id="@+id/emailReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/passwordReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пароль"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/tryPasswordReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Повторите пароль"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/regBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"/>
+
+
+</LinearLayout>
